@@ -1,0 +1,179 @@
+letter,frequency
+3D,1823
+Ajax,3881
+Algorithm,6080
+Amp,231
+Android,46346
+Angular,14804
+Ansible,7752
+API,18865
+Arduino,9936
+ASP.NET,316
+Atom,1963
+Awesome Lists,94
+Amazon Web Services,498
+Azure,3097
+Babel,4478
+Bash,7123
+Bitcoin,3854
+Blockchain,7219
+Bootstrap,14054
+Bot,7649
+C,17090
+Chrome,2433
+Chrome extension,5369
+Command line interface,99
+Clojure,2878
+Code quality,267
+Code review,148
+Compiler,2713
+Continuous integration,1403
+Cryptocurrency,4801
+Crystal,944
+C#,17090
+CSS,34073
+Data structures,4695
+Data visualization,3381
+Database,8162
+Deep learning,13627
+Dependency management,21
+Deployment,1380
+Django,13010
+Docker,33041
+Documentation,3620
+.NET,572
+Electron,5517
+Elixir,4213
+Emacs,2568
+Ember,991
+Emoji,1084
+Emulator,1386
+ES6,8836
+ESLint,2884
+Ethereum,5987
+Express,13435
+Firebase,8430
+Firefox,1405
+Flask,8901
+Font,1077
+Framework,6214
+Front end,1802
+Game engine,1905
+Git,7282
+GitHub API,1395
+Go,15902
+Google,2939
+Gradle,3400
+GraphQL,5708
+Gulp,5214
+Haskell,4737
+Homebrew,1131
+Homebridge,325
+HTML,32165
+HTTP,4568
+Icon font,138
+iOS,17119
+IPFS,626
+Java,67892
+JavaScript,99164
+Jekyll,5249
+jQuery,15889
+JSON,11212
+Jupyter Notebook,4077
+Koa,1294
+Kotlin,10035
+Kubernetes,6163
+Laravel,12311
+LaTeX,3354
+Library,8865
+Linux,12594
+Localization,1127
+Lua,4159
+Machine learning,24722
+macOS,5797
+Markdown,4914
+Mastodon,394
+Material design,3741
+MATLAB,3989
+Maven,4475
+Minecraft,4718
+Mobile,2506
+Monero,315
+MongoDB,15625
+Mongoose,4749
+Monitoring,3505
+MvvmCross,62
+MySQL,13879
+NativeScript,512
+Nim,620
+Natural language processing,3244
+Node.js,56006
+NoSQL,836
+npm,5718
+Objective-C,3915
+OpenGL,3941
+Operating system,1302
+P2P,1029
+Package manager,633
+Perl,2377
+Perl 6,2
+Phaser,704
+PHP,45267
+PICO-8,174
+Pixel Art,321
+PostgreSQL,6473
+Project management,540
+Publishing,343
+PWA,2408
+Python,87799
+Qt,2531
+R,11721
+Rails,5763
+Raspberry Pi,6109
+Ratchet,52
+React,50468
+React Native,10745
+ReactiveUI,48
+Redux,16425
+REST API,7855
+Ruby,16213
+Rust,8342
+Sass,7480
+Scala,7228
+scikit-learn,1900
+Software-defined networking,6
+Security,6189
+Server,4585
+Serverless,3030
+Shell,6624
+Sketch,651
+SpaceVim,34
+Spring Boot,13013
+SQL,6691
+Storybook,464
+Support,251
+Swift,15723
+Symfony,3179
+Telegram,2851
+Tensorflow,10598
+Terminal,2689
+Terraform,2900
+Testing,6130
+Twitter,3958
+TypeScript,20049
+Ubuntu,3260
+Unity,5710
+Unreal Engine,240
+Vagrant,2779
+Vim,5626
+Virtual reality,603
+Vue.js,8278
+Wagtail,187
+Web Components,748
+Web app,1450
+Webpack,12990
+Windows,7066
+WordPlate,12
+WordPress,9254
+Xamarin,1961
+XML,4000

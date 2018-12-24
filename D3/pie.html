@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+        <style>
+
+                body {
+                  font: 10px sans-serif;
+                }
+                
+                .axis path,
+                .axis line {
+                  fill: none;
+                  stroke: #000;
+                  shape-rendering: crispEdges;
+                }
+                
+                .bar {
+                  fill: orange;
+                }
+                
+                .bar:hover {
+                  fill: orangered ;
+                }
+                
+                .x.axis path {
+                  display: none;
+                }
+                
+                .d3-tip {
+                  line-height: 1;
+                  font-weight: bold;
+                  padding: 12px;
+                  background: rgba(0, 0, 0, 0.8);
+                  color: #fff;
+                  border-radius: 2px;
+                }
+                
+                /* Creates a small triangle extender for the tooltip */
+                .d3-tip:after {
+                  box-sizing: border-box;
+                  display: inline;
+                  font-size: 10px;
+                  line-height: 1;
+                  color: rgba(0, 0, 0, 0.8);
+                  content: "\25BC";
+                  position: absolute;
+                  text-align: center;
+                }
+                
+                /* Style northward tooltips differently */
+                .d3-tip.n:after {
+                  margin: -1px 0 0 0;
+                  top: 100%;
+                  left: 0;
+                }
+                </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visualization--repositories number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tree_chart.css">
+</head>
+<body class="index-page">
+    <div class="wrap-body">
+    <!-- Intro -->
+    <div id="intro">
+        <span class="line-1">
+            Github Topics Data
+        </span>
+        <span class="line-2">
+            Visualization
+        </span>
+        <span class="line-3">
+            Final project of software engineering
+        </span>
+        <span class="line-4">
+            SJTU   group11
+        </span>
+    </div>
+        <header id="page-header">
+                <!--  Navigation -->
+                <nav id="menu" class="navbar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="index.html#page-content">home</a>
+                                    </li>
+                                    <li>
+                                        <a href="repositories.html#page-content">Repositories Number</a>
+                                    </li>
+                                    <li >
+                                        <a href="language.html#page-content">Language Number</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="circle_packing.html#page-content">Circle-packing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+
+        <div id="page-content" class="container">
+                <div id = 'content'></div> 
+        </div>
+
+        <footer></footer>
+        
+
+   
+  <!-- <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script> -->
+<script src="d3.v4.min.js"></script>
+<script src="d3pie.min.js"></script>
+
+  <script>
+  var pie = new d3pie("content", {
+  "header": {
+    "title": {
+      "text": " Pie Chart of Programming Languages",
+      "fontSize": 24,
+      "font": "open sans"
+    },
+    "subtitle": {
+      "color": "#999999",
+      "fontSize": 12,
+      "font": "open sans"
+    },
+    "titleSubtitlePadding": 9
+  },
+  "footer": {
+    "color": "#999999",
+    "fontSize": 10,
+    "font": "open sans",
+    "location": "bottom-left"
+  },
+  "size": {
+    "canvasWidth": 590,
+    "pieOuterRadius": "90%"
+  },
+  "data": {
+    "sortOrder": "value-desc",
+    "content": [
+      {
+        "label": "JavaScript",
+        "value": 361513,
+        "color": "#2484c1"
+      },
+      {
+        "label": "Python",
+        "value": 149863,
+        "color": "#0c6197"
+      },
+      {
+        "label": "Java",
+        "value": 144784,
+        "color": "#4daa4b"
+      },
+      {
+        "label": "HTML",
+        "value": 91216,
+        "color": "#90c469"
+      },
+      {
+        "label": "PHP",
+        "value": 82110,
+        "color": "#daca61"
+      },
+      {
+        "label": "TypeScript",
+        "value": 50698,
+        "color": "#e4a14b"
+      },
+      {
+        "label": "CSS",
+        "value": 50222,
+        "color": "#e98125"
+      },
+      {
+        "label": "Shell",
+        "value": 41581,
+        "color": "#cb2121"
+      },
+      {
+        "label": "C",
+        "value": 36778,
+        "color": "#830909"
+      },
+      {
+        "label": "Go",
+        "value": 30588,
+        "color": "#923e99"
+      },
+      {
+        "label": "C++",
+        "value": 28889,
+        "color": "#ae83d5"
+      },
+      {
+        "label": "Ruby",
+        "value": 27194,
+        "color": "#bf273e"
+      },
+      {
+        "label": "Jupyter Notebook",
+        "value": 26752,
+        "color": "#bca44a"
+      },
+      {
+        "label": "Swift",
+        "value": 24298,
+        "color": "#618d1b"
+      },
+      {
+        "label": "C#",
+        "value": 21329,
+        "color": "#1ee67b"
+      },
+      {
+        "label": "Kotlin",
+        "value": 16037,
+        "color": "#b0ec44"
+      },
+      {
+        "label": "Objective-C",
+        "value": 9169,
+        "color": "#a4a0c9"
+      },
+      {
+        "label": "R",
+        "value": 8127,
+        "color": "#322849"
+      },
+      {
+        "label": "Rust",
+        "value": 7881,
+        "color": "#86f71a"
+      },
+      {
+        "label": "Vue",
+        "value": 6330,
+        "color": "#6382d0"
+      }
+    ]
+  },
+  "labels": {
+    "outer": {
+      "pieDistance": 32
+    },
+    "inner": {
+      "hideWhenLessThanPercentage": 3
+    },
+    "mainLabel": {
+      "fontSize": 11
+    },
+    "percentage": {
+      "color": "#ffffff",
+      "decimalPlaces": 0
+    },
+    "value": {
+      "color": "#adadad",
+      "fontSize": 11
+    },
+    "lines": {
+      "enabled": true
+    },
+    "truncation": {
+      "enabled": true
+    }
+  },
+  "effects": {
+    "pullOutSegmentOnClick": {
+      "effect": "linear",
+      "speed": 400,
+      "size": 8
+    }
+  },
+  "misc": {
+    "gradient": {
+      "enabled": true,
+      "percentage": 100
+    }
+  }
+});
+  
+    
+    </script>
+</body>
+</html>

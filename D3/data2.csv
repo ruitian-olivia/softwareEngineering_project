@@ -1,0 +1,179 @@
+letter,frequency
+JavaScript,99164
+Python,87799
+Java,67892
+Node.js,56006
+React,50468
+Android,46346
+PHP,45267
+CSS,34073
+Docker,33041
+HTML,32165
+Machine learning,24722
+TypeScript,20049
+API,18865
+iOS,17119
+C,17090
+C#,17090
+Redux,16425
+Ruby,16213
+Go,15902
+jQuery,15889
+Swift,15723
+MongoDB,15625
+Angular,14804
+Bootstrap,14054
+MySQL,13879
+Deep learning,13627
+Express,13435
+Spring Boot,13013
+Django,13010
+Webpack,12990
+Linux,12594
+Laravel,12311
+R,11721
+JSON,11212
+React Native,10745
+Tensorflow,10598
+Kotlin,10035
+Arduino,9936
+WordPress,9254
+Flask,8901
+Library,8865
+ES6,8836
+Firebase,8430
+Rust,8342
+Vue.js,8278
+Database,8162
+REST API,7855
+Ansible,7752
+Bot,7649
+Sass,7480
+Git,7282
+Scala,7228
+Blockchain,7219
+Bash,7123
+Windows,7066
+SQL,6691
+Shell,6624
+PostgreSQL,6473
+Framework,6214
+Security,6189
+Kubernetes,6163
+Testing,6130
+Raspberry Pi,6109
+Algorithm,6080
+Ethereum,5987
+macOS,5797
+Rails,5763
+npm,5718
+Unity,5710
+GraphQL,5708
+Vim,5626
+Electron,5517
+Chrome extension,5369
+Jekyll,5249
+Gulp,5214
+Markdown,4914
+Cryptocurrency,4801
+Mongoose,4749
+Haskell,4737
+Minecraft,4718
+Data structures,4695
+Server,4585
+HTTP,4568
+Babel,4478
+Maven,4475
+Elixir,4213
+Lua,4159
+Jupyter Notebook,4077
+XML,4000
+MATLAB,3989
+Twitter,3958
+OpenGL,3941
+Objective-C,3915
+Ajax,3881
+Bitcoin,3854
+Material design,3741
+Documentation,3620
+Monitoring,3505
+Gradle,3400
+Data visualization,3381
+LaTeX,3354
+Ubuntu,3260
+Natural language processing,3244
+Symfony,3179
+Azure,3097
+Serverless,3030
+Google,2939
+Terraform,2900
+ESLint,2884
+Clojure,2878
+Telegram,2851
+Vagrant,2779
+Compiler,2713
+Terminal,2689
+Emacs,2568
+Qt,2531
+Mobile,2506
+Chrome,2433
+PWA,2408
+Perl,2377
+Atom,1963
+Xamarin,1961
+Game engine,1905
+scikit-learn,1900
+3D,1823
+Front end,1802
+Web app,1450
+Firefox,1405
+Continuous integration,1403
+GitHub API,1395
+Emulator,1386
+Deployment,1380
+Operating system,1302
+Koa,1294
+Homebrew,1131
+Localization,1127
+Emoji,1084
+Font,1077
+P2P,1029
+Ember,991
+Crystal,944
+NoSQL,836
+Web Components,748
+Phaser,704
+Sketch,651
+Package manager,633
+IPFS,626
+Nim,620
+Virtual reality,603
+.NET,572
+Project management,540
+NativeScript,512
+Amazon Web Services,498
+Storybook,464
+Mastodon,394
+Publishing,343
+Homebridge,325
+Pixel Art,321
+ASP.NET,316
+Monero,315
+Code quality,267
+Support,251
+Unreal Engine,240
+Amp,231
+Wagtail,187
+PICO-8,174
+Code review,148
+Icon font,138
+Command line interface,99
+Awesome Lists,94
+MvvmCross,62
+Ratchet,52
+ReactiveUI,48
+SpaceVim,34
+Dependency management,21
+WordPlate,12
+Software-defined networking,6
+Perl 6,2
